@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+}
+
+.blog {
+    width: 800px;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.blog-title h2 {
+    font-size: 36px;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.blog-image {
+    text-align: center;
+    padding: 20px 0;
+}
+
+.blog-image img {
+    width: 350px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.description {
+    padding: 20px;
+    line-height: 1.6;
+}
+
+
+.description h4 {
+    font-size: 16px;
+    color: #555;
+}
+
+
+.description p {
+    font-size: 18px;
+    color: #333;
+}
